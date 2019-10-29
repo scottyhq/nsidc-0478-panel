@@ -1,0 +1,22 @@
+name: measures
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - jupyterlab=1.1
+  - jupyter-server-proxy=1.1
+  - boto3=1.9
+  - xarray=0.14
+  - rasterio=1.0
+  - panel=0.6
+  - holoviews=1.12
+  - hvplot=0.5
+  - bokeh=1.3
+  - gdal=2.4
+  - geopandas=0.6
+  - dask=2.6
+  - datashader=0.8
+  - nodejs=12.11
+  - pip=19.3
+  - pip:
+    - jupyter-panel-proxy==0.1   
